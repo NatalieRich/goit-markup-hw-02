@@ -1,0 +1,106 @@
+/* title color #212121 */
+/* text color #757575 */
+/* button background color #2196F3 */
+/*  wight #FFFFFF */
+/* adress color  rgba(255, 255, 255, 0.6); */
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --active-bgr-color: #2196f3;
+  --button-title-color: #ffffff;
+  --adress-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.web-title {
+  color: var(--active-bgr-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--active-bgr-color);
+}
+
+.site-nav .link.current {
+  color: var(--active-bgr-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--active-bgr-color);
+}
+
+/* footer */
+
+.studio-title {
+  color: var(--button-title-color);
+}
+
+.footer .logo {
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.footer-title {
+  color: var(--button-title-color);
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .contact {
+  color: var(--adress-text-color);
+}
+
+.develope-title {
+  color: var(--adress-text-color);
+
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+.action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
